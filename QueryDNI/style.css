@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: underline;
+    margin: 5;
+    padding: 0;
+  }
+  
+  /* Estilos para el encabezado */
+  h1 {
+    color: #333;
+    font-size: 42px;
+    margin: 0.1em 0;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin: 0.1em 0;
+  }
+  
+  h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin: 0.5em 0;
+  }
+  
+  /* Estilos para el párrafo */
+  p {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border-style:solid;
+    font-size: 17;
+    padding: 7px;
+  }
+  p1 {
+    margin-left: 27rem;
+
+  }
+
+  /* Estilos para el botón */
+  button {
+    background-color: #007bff;
+    border: solid 1px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    font-size: 17px;
+    margin: 0.5em;
+    padding: 10px;
+
+    text-decoration: none;
+  }
+
+  button:active {
+    background-color: #C0C0C0;
+    box-shadow: 0 5px #666;
+  }
+  
+  /* Estilos para los inputs */
+  input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.1em;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    width: 100%;
+  }
+  
+  /* Estilos para la lista */
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .box {
+    display: inline-block;
+    margin: 0.5em;
+    margin-left: 1.8rem;
+    width: 45%;
+  }
+  
+  .box li {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin: 0.1rem 0;
+  }
+  .box li:hover {
+    background-color: #ddd;
+  }
+  .Doc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+p{
+text-align: center;
+}
